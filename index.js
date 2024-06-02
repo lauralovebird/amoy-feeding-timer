@@ -144,18 +144,17 @@ vm = new Vue({
   data: {
     states: {
       Forage: [],
-      Preen: [],
-      Rest: [],
+      Maintenance: [],
+      Locomotion: [],
       Stand: [],
-      Run: [],
-      Flee: [],
-      Fly: [],
+      Rest: [],
+      Vocalization: [],
+      Aggression: [],
     },
     events: {
-      Display: [],
-      AC: [],
+      Vigilance: [],
       PA: [],
-      Predator: [],
+      PS: [],
       Comment: [],
     },
     toggles: {
