@@ -154,6 +154,7 @@ vm = new Vue({
     events: {
       Display: [],
       AC: [],
+      PA: [],
       Predator: [],
       Comment: [],
     },
