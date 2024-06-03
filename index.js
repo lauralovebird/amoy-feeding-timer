@@ -4,8 +4,6 @@ Vue.component('state', {
       <p class="label">{{name}}</p>
       <p class="clock">{{clock}}</p>
       <div class="circle"><p>{{history.length}}</p></div>
-      <div id="buttons">
-        <button id="RESET">RESET ♻️</button>
     </div>
   `,
   props: ['name', 'active_state', 'history'],
@@ -173,17 +171,6 @@ vm = new Vue({
         this.active_state = name
       }
     },
-  resetCounters: function() {
-  Object.keys(this.states).forEach(state => {
-    this.states[state].push('RESET')
-  })
-  Object.keys(this.events).forEach(event => {
-    this.events[event].push('RESET')
-  })
-  Object.keys(this.toggles).forEach(toggle => {
-    this.toggles[toggle].push('RESET')
-  })
-},
     download: function() {
       columns = Object.fromEntries([
         get_entries_with_start(this.states),
