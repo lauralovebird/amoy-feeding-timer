@@ -5,7 +5,7 @@ Vue.component('state', {
       <p class="clock">{{clock}}</p>
       <div class="circle"><p>{{history.length}}</p></div>
       <div id="buttons">
-        <button id="reset">Reset ♻️</button>
+        <button id="RESET">RESET ♻️</button>
     </div>
   `,
   props: ['name', 'active_state', 'history'],
