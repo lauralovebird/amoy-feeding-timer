@@ -151,7 +151,7 @@ vm = new Vue({
       Stand: [],
       Rest: [],
       Vocalization: [],
-      NoVisual [],
+      NoVisual: [],
       Other: [],
     },
     events: {
