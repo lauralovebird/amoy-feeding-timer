@@ -156,7 +156,7 @@ vm = new Vue({
       Vigilance: [],
       PA: [],
       PS: [],
-      Vocalization: [],
+      Vocal: [],
       Comment: [],
     },
     toggles: {
