@@ -145,10 +145,10 @@ vm = new Vue({
     states: {
       Forage: [],
       Maintenance: [],
-      Locomotion: [],
+      Walk: [],
+      Fly: [],
       Stand: [],
       Rest: [],
-      Vocalization: [],
       NoVisual: [],
       Other: [],
     },
@@ -156,6 +156,7 @@ vm = new Vue({
       Vigilance: [],
       PA: [],
       PS: [],
+      Vocalization: [],
       Comment: [],
     },
     toggles: {
