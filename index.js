@@ -189,7 +189,7 @@ vm = new Vue({
       const f = new File([csv], {type: 'text/csv'})
       const link = document.createElement('a')
       link.href = URL.createObjectURL(f)
-      link.download = 'amoyfeedingtimedata.csv'
+      link.download = 'leyeforagingdata_.csv'
       link.click()
 
       // console.log(csv)
